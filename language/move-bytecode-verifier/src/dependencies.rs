@@ -237,7 +237,6 @@ fn verify_imported_structs(context: &Context) -> PartialVMResult<()> {
 fn verify_imported_functions(context: &Context) -> PartialVMResult<()> {
     let self_module = context.resolver.self_handle_idx();
     for (idx, function_handle) in context.resolver.function_handles().iter().enumerate() {
-        println!("--- idx: {:?}, function_handle: {:?}", idx, function_handle);
         if Some(function_handle.module) == self_module {
             continue;
         }
@@ -245,6 +244,8 @@ fn verify_imported_functions(context: &Context) -> PartialVMResult<()> {
             .resolver
             .module_id_for_handle(context.resolver.module_handle_at(function_handle.module));
         let function_name = context.resolver.identifier_at(function_handle.name);
+        println!("--- idx: {:?}, function_name: {:?}", idx, function_name);
+
         // TODO: remove unwrap
         let owner_module = context.dependency_map.get(&owner_module_id).unwrap();
         match context
