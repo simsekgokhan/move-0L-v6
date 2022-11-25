@@ -250,7 +250,7 @@ fn verify_imported_functions(context: &Context) -> PartialVMResult<()> {
         let owner_module = context.dependency_map.get(&owner_module_id).unwrap();
 
         let mm = &context.func_id_to_handle_map;
-        println!("--- func_id_to_handle_map: {:?}", mm);
+        // println!("--- func_id_to_handle_map: {:?}", mm);
 
         match context
             .func_id_to_handle_map
