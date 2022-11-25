@@ -67,6 +67,9 @@ impl<'r, 'l, S: MoveResolver> Session<'r, 'l, S> {
         args: Vec<Vec<u8>>,
         gas_status: &mut GasStatus,
     ) -> VMResult<Vec<Vec<u8>>> {
+
+        dbg!(function_name);
+
         self.runtime.execute_function(
             module,
             function_name,
