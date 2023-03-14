@@ -16,7 +16,7 @@ block-buffer = { version = "0.9.0", default-features = false, features = ["block
 bstr = { version = "0.2.15", features = ["lazy_static", "regex-automata", "serde", "serde1", "serde1-nostd", "std", "unicode"] }
 byteorder = { version = "1.4.3", features = ["std"] }
 codespan-reporting = { version = "0.11.1", default-features = false, features = ["serde", "serialization"] }
-crossbeam-utils = { version = "0.8.3", features = ["lazy_static", "std"] }
+crossbeam-utils = { version = "0.8.3", features = ["std"] }
 getrandom = { version = "0.2.2", default-features = false, features = ["std"] }
 log = { version = "0.4.14", default-features = false, features = ["serde", "std"] }
 memchr = { version = "2.4.0", features = ["std", "use_std"] }
