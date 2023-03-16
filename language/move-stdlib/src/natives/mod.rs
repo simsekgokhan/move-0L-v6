@@ -7,8 +7,8 @@ pub mod hash;
 pub mod signer;
 pub mod vector;
 //////// 0L ////////
-pub mod ol_vdf;
-pub mod ol_counters;
+// pub mod ol_vdf;
+// pub mod ol_counters;
 pub mod ol_decimal;
 pub mod ol_hash;
 pub mod ol_eth_signature;
@@ -58,8 +58,8 @@ pub fn all_natives(move_std_addr: AccountAddress) -> NativeFunctionTable {
             unit_test::native_create_signers_for_testing,
         ),
         /////// 0L /////////
-        ("VDF", "verify", ol_vdf::native_verify),
-        ("VDF", "extract_address_from_challenge", ol_vdf::native_extract_address_from_challenge),
+        // ("VDF", "verify", ol_vdf::native_verify),
+        // ("VDF", "extract_address_from_challenge", ol_vdf::native_extract_address_from_challenge),
         ("Decimal", "demo", ol_decimal::native_demo),
         ("Decimal", "single", ol_decimal::native_single),
         ("Decimal", "pair", ol_decimal::native_pair),

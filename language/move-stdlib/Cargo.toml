@@ -31,11 +31,11 @@ workspace-hack = { version = "0.1", path = "../../crates/workspace-hack" }
 
 ######### 0L ########
 hex = "0.4.2"
-vdf = { git = "https://github.com/simsekgokhan/libra", rev = "3572450cc933696e1521fb3c22522d8da9ce67bc" }
+# vdf = { git = "https://github.com/simsekgokhan/libra", rev = "3572450cc933696e1521fb3c22522d8da9ce67bc" }
 rust_decimal= { version = "1.10.3", default-features = true, features = ["maths"] }
 tiny-keccak = { version = "2.0.2", features = ["keccak"] }
 ethers = {version = "0.1.3"}
-diem-metrics = { git = "https://github.com/simsekgokhan/libra", rev = "3572450cc933696e1521fb3c22522d8da9ce67bc" }
+# diem-metrics = { git = "https://github.com/simsekgokhan/libra", rev = "3572450cc933696e1521fb3c22522d8da9ce67bc" }
 once_cell = "1.7.2"
 
 [dev-dependencies]
