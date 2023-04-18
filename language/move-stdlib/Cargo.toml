@@ -27,7 +27,7 @@ walkdir = "2.3.1"
 smallvec = "1.6.1"
 sha2 = "0.9.3"
 sha3 = "0.9.1"
-workspace-hack = { version = "0.1", path = "../../crates/workspace-hack" }
+# workspace-hack = { version = "0.1", path = "../../crates/workspace-hack" }
 
 ######### 0L ########
 hex = "0.4.2"

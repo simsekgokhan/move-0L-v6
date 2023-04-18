@@ -8,7 +8,7 @@ license = "Apache-2.0"
 
 
 [dependencies]
-workspace-hack = { version = "0.1", path = "../../../crates/workspace-hack" }
+# workspace-hack = { version = "0.1", path = "../../../crates/workspace-hack" }
 
 [dev-dependencies]
 

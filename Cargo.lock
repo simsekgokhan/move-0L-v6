@@ -335,7 +335,6 @@ dependencies = [
  "ed25519-dalek-fiat",
  "sha2 0.9.9",
  "sha3 0.9.1",
- "workspace-hack",
 ]
 
 [[package]]
@@ -349,7 +348,6 @@ dependencies = [
  "move-stackless-bytecode-interpreter",
  "move-stdlib",
  "move-unit-test",
- "workspace-hack",
 ]
 
 [[package]]
@@ -362,7 +360,6 @@ dependencies = [
  "move-core-types",
  "petgraph 0.5.1",
  "proptest",
- "workspace-hack",
 ]
 
 [[package]]
@@ -371,7 +368,6 @@ version = "0.1.0"
 dependencies = [
  "datatest-stable",
  "move-transactional-test-runner",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2087,7 +2083,6 @@ dependencies = [
  "move-binary-format",
  "move-core-types",
  "proptest",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2192,7 +2187,6 @@ dependencies = [
  "move-vm-types",
  "once_cell",
  "proptest",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2431,7 +2425,6 @@ dependencies = [
  "serde 1.0.136",
  "serde_json",
  "structopt 0.3.26",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2445,7 +2438,6 @@ dependencies = [
  "move-ir-types",
  "move-symbol-pool",
  "rand 0.8.4",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2466,7 +2458,6 @@ dependencies = [
  "move-prover-test-utils",
  "serde 1.0.136",
  "tempfile",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2479,7 +2470,6 @@ dependencies = [
  "move-compiler",
  "serde_json",
  "structopt 0.3.26",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2496,7 +2486,6 @@ dependencies = [
  "serde 1.0.136",
  "serde_json",
  "variant_count",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2504,7 +2493,6 @@ name = "move-borrow-graph"
 version = "0.0.1"
 dependencies = [
  "mirai-annotations",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2520,7 +2508,6 @@ dependencies = [
  "move-ir-types",
  "move-symbol-pool",
  "serde 1.0.136",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2531,7 +2518,6 @@ dependencies = [
  "move-binary-format",
  "move-core-types",
  "petgraph 0.5.1",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2545,7 +2531,6 @@ dependencies = [
  "move-borrow-graph",
  "move-core-types",
  "petgraph 0.5.1",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2562,7 +2547,6 @@ dependencies = [
  "structopt 0.3.26",
  "termion",
  "tui",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2605,7 +2589,6 @@ dependencies = [
  "structopt 0.3.26",
  "tempfile",
  "walkdir",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2618,7 +2601,6 @@ dependencies = [
  "serde 1.0.136",
  "sha2 0.9.9",
  "walkdir",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2647,7 +2629,6 @@ dependencies = [
  "structopt 0.3.26",
  "tempfile",
  "walkdir",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2656,7 +2637,6 @@ version = "0.1.0"
 dependencies = [
  "datatest-stable",
  "move-transactional-test-runner",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2676,7 +2656,6 @@ dependencies = [
  "serde 1.0.136",
  "serde_bytes",
  "serde_json",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2697,7 +2676,6 @@ dependencies = [
  "petgraph 0.5.1",
  "serde 1.0.136",
  "structopt 0.3.26",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2715,7 +2693,6 @@ dependencies = [
  "move-coverage",
  "move-ir-types",
  "structopt 0.3.26",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2738,7 +2715,6 @@ dependencies = [
  "regex",
  "serde 1.0.136",
  "tempfile",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2755,7 +2731,6 @@ dependencies = [
  "move-model",
  "move-prover",
  "serde 1.0.136",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2766,7 +2741,6 @@ dependencies = [
  "move-command-line-common",
  "move-core-types",
  "structopt 0.3.26",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2785,7 +2759,6 @@ dependencies = [
  "move-symbol-pool",
  "serde_json",
  "structopt 0.3.26",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2794,7 +2767,6 @@ version = "0.1.0"
 dependencies = [
  "datatest-stable",
  "move-transactional-test-runner",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2813,7 +2785,6 @@ dependencies = [
  "move-symbol-pool",
  "ouroboros",
  "thiserror",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2826,7 +2797,6 @@ dependencies = [
  "move-core-types",
  "move-ir-types",
  "move-symbol-pool",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2840,7 +2810,6 @@ dependencies = [
  "move-symbol-pool",
  "once_cell",
  "serde 1.0.136",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2868,7 +2837,6 @@ dependencies = [
  "once_cell",
  "regex",
  "serde 1.0.136",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2900,7 +2868,6 @@ dependencies = [
  "tempfile",
  "toml",
  "walkdir",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2943,7 +2910,6 @@ dependencies = [
  "tokio 1.17.0",
  "toml",
  "walkdir",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2971,7 +2937,6 @@ dependencies = [
  "serde_json",
  "tera",
  "tokio 1.17.0",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2982,7 +2947,6 @@ dependencies = [
  "move-command-line-common",
  "prettydiff",
  "regex",
- "workspace-hack",
 ]
 
 [[package]]
@@ -2993,7 +2957,6 @@ dependencies = [
  "move-binary-format",
  "move-core-types",
  "serde 1.0.136",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3008,7 +2971,6 @@ dependencies = [
  "move-vm-types",
  "once_cell",
  "serde 1.0.136",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3038,7 +3000,6 @@ dependencies = [
  "petgraph 0.5.1",
  "serde 1.0.136",
  "serde_json",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3059,7 +3020,6 @@ dependencies = [
  "num 0.4.0",
  "serde 1.0.136",
  "structopt 0.3.26",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3093,7 +3053,6 @@ dependencies = [
  "tiny-keccak 2.0.2",
  "vdf",
  "walkdir",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3103,7 +3062,6 @@ dependencies = [
  "once_cell",
  "serde 1.0.136",
  "serde_json",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3136,7 +3094,6 @@ dependencies = [
  "regex",
  "structopt 0.3.26",
  "tempfile",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3162,7 +3119,6 @@ dependencies = [
  "rayon",
  "regex",
  "structopt 0.3.26",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3178,7 +3134,6 @@ dependencies = [
  "move-vm-test-utils",
  "move-vm-types",
  "tempfile",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3200,7 +3155,6 @@ dependencies = [
  "proptest",
  "sha3 0.9.1",
  "tracing",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3211,7 +3165,6 @@ dependencies = [
  "move-binary-format",
  "move-core-types",
  "move-vm-runtime",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3220,7 +3173,6 @@ version = "0.1.0"
 dependencies = [
  "datatest-stable",
  "move-transactional-test-runner",
- "workspace-hack",
 ]
 
 [[package]]
@@ -3236,7 +3188,6 @@ dependencies = [
  "serde 1.0.136",
  "sha2 0.9.9",
  "smallvec",
- "workspace-hack",
 ]
 
 [[package]]
@@ -4122,7 +4073,6 @@ dependencies = [
  "serde 1.0.136",
  "serde_json",
  "simplelog",
- "workspace-hack",
  "z3tracer",
 ]
 
@@ -4148,7 +4098,6 @@ dependencies = [
  "serde 1.0.136",
  "serde_json",
  "simplelog",
- "workspace-hack",
  "z3tracer",
 ]
 
@@ -4366,7 +4315,6 @@ dependencies = [
  "move-resource-viewer",
  "move-stackless-bytecode",
  "read-write-set-dynamic",
- "workspace-hack",
 ]
 
 [[package]]
@@ -4378,7 +4326,6 @@ dependencies = [
  "move-bytecode-utils",
  "move-core-types",
  "move-read-write-set-types",
- "workspace-hack",
 ]
 
 [[package]]
@@ -4876,7 +4823,6 @@ dependencies = [
  "move-binary-format",
  "proptest",
  "proptest-derive",
- "workspace-hack",
 ]
 
 [[package]]
@@ -5098,7 +5044,6 @@ dependencies = [
  "move-stackless-bytecode",
  "pretty",
  "structopt 0.3.26",
- "workspace-hack",
 ]
 
 [[package]]
@@ -5360,7 +5305,6 @@ dependencies = [
  "structopt 0.3.26",
  "tracing",
  "tracing-subscriber",
- "workspace-hack",
 ]
 
 [[package]]
